@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(express.static('.'));
 
 const pool = mysql.createPool({
-    host: 'mysql--joo.railway.internal',
-    port: '3306',
+    host: 'yamanote.proxy.rlwy.net',
+    port: '36577',
     user: 'root',
     password: 'TChTJQiZVIjNNXOvHVPNySybdugthqGr',
     database: 'railway'
